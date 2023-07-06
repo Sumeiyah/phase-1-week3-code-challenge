@@ -7,7 +7,7 @@ This is a Movie Booking App, a JavaScript application that retrieves movie data 
 ## Description
 
  
-The  flatdango movie theatre app  fetches movie data from a JSON file and displays movie details such as title, poster, runtime, showtime, available tickets, and description. Users can view the first movie's details upon page load and select a movie from the movie menu on the left side of the page. The number of available tickets is calculated based on the movie's capacity and tickets sold. Users can click the "Buy Ticket" button to purchase a ticket for the selected movie, and the available ticket count will decrease accordingly.
+The flatdango movie theatre app  fetches movie data from a JSON file and displays movie details such as title, poster, runtime, showtime, available tickets, and description. Users can view the first movie's details upon page load and select a movie from the movie menu on the left side of the page. The number of available tickets is calculated based on the movie's capacity and tickets sold. Users can click the "Buy Ticket" button to purchase a ticket for the selected movie, and the available ticket count will decrease accordingly.
 
 ## Usage
 
@@ -71,7 +71,7 @@ The movie data is fetched from the `films` array in the JSON file.
 
 ## Author
 
-Author: Sumeya Farah
+Author: Sumeya Farah.
 
 ## License
 
