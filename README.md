@@ -20,7 +20,8 @@ The  flatdango movie theatre app  fetches movie data from a JSON file and displa
 2. Navigate to the project folder:
 
     cd phase-1-week3-code-challenge
-   code . 
+
+     code . 
 
  3. Install json-server tool:
 
