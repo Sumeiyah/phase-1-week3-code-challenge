@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+  }
+  
+  #container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+  }
+  
+  #movie-details {
+    margin-right: 40px;
+    text-align: center;
+  }
+  #movie-description{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: ultra-condensed;
+  }
+  
+  #movie-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #movie-poster {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info {
+    margin-bottom: 10px;
+  }
+  
+  .movie-info strong {
+    font-weight: bold;
+  }
+  
+  #buy-ticket-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  #films {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #films li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  #films li:hover {
+    background-color: #f2f2f2;
+  }
+ 
+  
+  
