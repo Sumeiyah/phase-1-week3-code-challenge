@@ -1,3 +1,4 @@
+// Fetch movie data from the API endpoint
 function fetchMovies() {
     return fetch('db.json')
       .then(function(response) {
@@ -15,7 +16,7 @@ function fetchMovies() {
         return [];
       });
   }
-  
+  // Update movie details section with the selected movie
   function updateMovieDetails(movie) {
     document.getElementById('movie-title').textContent = movie.title;
     document.getElementById('movie-poster').src = movie.poster;
@@ -26,7 +27,7 @@ function fetchMovies() {
     document.getElementById('movie-available-tickets').textContent = availableTickets;
     document.getElementById('buy-ticket-btn').disabled = availableTickets === 0;
   }
-  
+  // Populate the film menu with movie titles
   function populateFilmMenu(films) {
     const filmsList = document.getElementById('films');
   
@@ -39,7 +40,7 @@ function fetchMovies() {
       filmsList.appendChild(filmItem);
     });
   }
-  
+  // Buy a ticket for the selected movie
   function buyTicket() {
     const availableTicketsElement = document.getElementById('movie-available-tickets');
     let availableTickets = parseInt(availableTicketsElement.textContent);
@@ -50,7 +51,7 @@ function fetchMovies() {
       document.getElementById('buy-ticket-btn').disabled = availableTickets === 0;
     }
   }
-  
+  // Initialize the page
   function initializePage() {
     fetchMovies()
       .then(function(movies) {
@@ -61,6 +62,6 @@ function fetchMovies() {
         }
       });
   }
-  
+  // Call the initialization function
   initializePage();
   
