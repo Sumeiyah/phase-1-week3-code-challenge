@@ -63,7 +63,7 @@ Once the data is fetched, the app will create HTML elements to display the anima
 
 The application fetches data from the following API endpoint:
 
-API Endpoint: [http://localhost:3000/films]
+API Endpoint: [https://api.npoint.io/fcf58c47bb7242da3aa2]
 
 ## JSON Data
 
