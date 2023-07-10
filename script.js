@@ -1,6 +1,6 @@
 // Fetch movie data from the API endpoint
 function fetchMovies() {
-    return fetch('https://api.npoint.io/fcf58c47bb7242da3aa2')
+    return fetch('db.json')
       .then(function(response) {
         if (response.ok) {
           return response.json();
